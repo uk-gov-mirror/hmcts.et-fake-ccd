@@ -232,6 +232,14 @@
           <td class="govuk-table__cell">ACAS Certificate Number</td>
           <td class="govuk-table__cell"><%= respondent.dig('value', 'respondent_ACAS') %></td>
         </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">ACAS Certificate Receipt Date</td>
+          <td class="govuk-table__cell"><%= respondent.dig('value', 'acasCertificateReceiptDate') %></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">ACAS Certificate Issue Date</td>
+          <td class="govuk-table__cell"><%= respondent.dig('value', 'acasCertificateIssueDate') %></td>
+        </tr>
         </tbody>
       </table>
       <table class="govuk-table">
