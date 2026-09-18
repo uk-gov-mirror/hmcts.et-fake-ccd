@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    et_fake_ccd (3.2.2)
+    et_fake_ccd (3.2.3)
       activemodel (>= 7.0)
       json-schema (~> 4.1.1)
       puma (>= 6.4)

@@ -138,6 +138,23 @@
         <td class="govuk-table__cell">Employed from</td>
         <td class="govuk-table__cell"><%= case_data.dig('data', 'claimantOtherType', 'claimant_employed_from') %></td>
       </tr>
+      <tr class="govuk-table__row">
+        <td class="govuk-table__cell">Last event date</td>
+        <td class="govuk-table__cell"><%= case_data.dig('data', 'claimantOtherType', 'dateOfLastEvent') %></td>
+      </tr>
+      </tbody>
+    </table>
+    <h2 class="govuk-heading-l">Additional Claimant Information</h2>
+    <table class="govuk-table">
+      <tbody class="govuk-table__body">
+      <tr class="govuk-table__row">
+        <td class="govuk-table__cell">Hearing panel preference</td>
+        <td class="govuk-table__cell"><%= case_data.dig('data', 'claimantHearingPreference', 'claimant_hearing_panel_preference') %></td>
+      </tr>
+      <tr class="govuk-table__row">
+        <td class="govuk-table__cell">Panel preference reason</td>
+        <td class="govuk-table__cell"><%= case_data.dig('data', 'claimantHearingPreference', 'claimant_hearing_panel_preference_why') %></td>
+      </tr>
       </tbody>
     </table>
   </div>
